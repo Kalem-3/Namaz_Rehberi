@@ -1,4 +1,4 @@
-# Namaz Rehberi — görselli sürüm 3
+# Namaz Rehberi — görselli sürüm 4
 
 ## Başlatma
 ZIP dosyasını çıkarıp index.html dosyasını açın. Vakti seçin. Erkek/kadın görünümü üst çubuktan değişir. Önce duruş ve yanındaki ayrıntılar, sonra açıklama, dua, okunuş ve anlamı gösterilir. Görsellere dokunarak büyütün. Birden çok duruş içeren adımlarda üstteki duruş düğmeleri kullanılır. Önceki/sonraki adımla ilerlenir. Tüm adımları birlikte görmek de mümkündür.
@@ -32,3 +32,6 @@ Beş sayfanın orijinal dua/duruş paragrafları programatik olarak karşılaşt
 
 ## Sürüm 3 düzeltmesi
 Seccadelerin uzun ekseni kişinin gövde/dizlerinin yöneldiği namaz doğrultusuna göre düzeltildi. Selâmda seccade, başın döndüğü yöne göre çevrilmez. Önden ve yandan görünümlerde perspektif farklıdır.
+
+## Sürüm 4 — okuma ve tema
+Okunuşlar masaüstünde 23 px, telefonda 21 px; mealler 20/18 px; Arapça metin 14/13 px olarak düzenlendi. Dua kartlarında önce okunuş, sonra anlam ve en altta Arapça gösterilir. Sade yeşil-beyaz açık tema ana sayfa ve beş vakitte ortaktır. Dua metinleri ve duruş görselleri değiştirilmedi.
