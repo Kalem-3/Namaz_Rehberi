@@ -1,4 +1,4 @@
-# Namaz Rehberi — görselli sürüm 6
+# Namaz Rehberi — görselli sürüm 7
 
 ## Başlatma
 ZIP dosyasını çıkarıp index.html dosyasını açın. Vakti seçin. Erkek/kadın görünümü üst çubuktan değişir. Önce duruş ve yanındaki ayrıntılar, sonra açıklama, dua, okunuş ve anlamı gösterilir. Görsellere dokunarak büyütün. Birden çok duruş içeren adımlarda üstteki duruş düğmeleri kullanılır. Önceki/sonraki adımla ilerlenir. Tüm adımları birlikte görmek de mümkündür.
@@ -41,3 +41,18 @@ Tüm adımlar açıkken önceki/sonraki adım çubuğu gizlenir. Gizli çubuğun
 
 ## Sürüm 6 — tanıtım dili
 Ana sayfadaki sloganlar ve vakit kartlarının ifadeleri daha sade ve mütevazı bir dille yenilendi. Ana sayfa ile beş vaktin tanıtım/alt bilgi bölümlerinde İmam-ı Âzam Ebû Hanîfe Hazretleri’nin adı eklendi. Beş vaktin ders gövdeleri, dua metinleri, okunuşlar ve mealler V5 ile harfi harfine karşılaştırıldı ve aynen korundu. Görseller, stiller ve işlev dosyaları değişmedi.
+
+## Sürüm 7 — içerik düzeltmeleri ve altın tema
+
+- İstenen alt bilgi paragrafı kaldırıldı. Hanefî usulünün Türkiye’de yaygınlığı, tercih gerekçesi olarak tanıtıma eklendi; İmam-ı Âzam Ebû Hanîfe Hazretleri’nin adı korundu.
+- Sabah namazında ikinci secdeden son oturuşa geçiş “Allahü ekber diyerek” olarak düzeltildi.
+- İkindi ve yatsı ilk sünnetinin ara oturuşlarında Ettehiyyâtü ve Salli–Bârik bırakıldı. Bu iki noktada fazladan tekrarlanan Rabbenâ kartları kaldırıldı; son oturuşlardaki metinler korundu.
+- Şehadet parmağının kaldırılma ve indirilme zamanı açıklandı; ikindi üçüncü rekât açıklamasındaki yazım hatası düzeltildi.
+- Farzlarda örnek olarak aynı sûrenin gösterilmesine ilişkin açıklama eklendi. Mevcut İhlâs metni değiştirilmedi; başka sûre eklenmedi.
+- Anlatımın tek başına namaz kılan kişi için olduğu belirtildi.
+- Zeminler açık altın, şampanya ve krem tonlarına taşındı. Yeşil, ana eylem düğmeleri ve sınırlı metin vurgularında kullanıldı.
+
+Koruma kontrolü: Kalan bütün dua kartlarının HTML içeriği V6 ile birebir karşılaştırıldı. Hiçbir Arapça metin, okunuş veya meal yeniden yazılmadı. Yalnızca yukarıda belirtilen iki ara oturuştaki ikişer tekrar kaldırıldı. Ortak dua verileri ile erkek/kadın görselleri V6 ile aynı. Kaynakla yapılan açıklama düzeltmeleri, görsellerdeki her anatomik ayrıntının uzman onayı anlamına gelmez.
+
+Tercih gerekçesi kaynağı: TDV İslâm Ansiklopedisi, Hanefî Mezhebi: https://islamansiklopedisi.org.tr/hanefi-mezhebi
+Uygulama açıklamaları: Diyanet Haber “Beş Vakit Namazın Kılınışı”, Din İşleri Yüksek Kurulu’nun ikindi/yatsı ilk sünneti açıklaması ve V6 içerik kontrol raporundaki kaynaklar.
