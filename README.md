@@ -1,4 +1,4 @@
-# Namaz Rehberi — görselli sürüm 7
+# Namaz Rehberi — görselli sürüm 9
 
 ## Başlatma
 ZIP dosyasını çıkarıp index.html dosyasını açın. Vakti seçin. Erkek/kadın görünümü üst çubuktan değişir. Önce duruş ve yanındaki ayrıntılar, sonra açıklama, dua, okunuş ve anlamı gösterilir. Görsellere dokunarak büyütün. Birden çok duruş içeren adımlarda üstteki duruş düğmeleri kullanılır. Önceki/sonraki adımla ilerlenir. Tüm adımları birlikte görmek de mümkündür.
@@ -56,3 +56,19 @@ Koruma kontrolü: Kalan bütün dua kartlarının HTML içeriği V6 ile birebir 
 
 Tercih gerekçesi kaynağı: TDV İslâm Ansiklopedisi, Hanefî Mezhebi: https://islamansiklopedisi.org.tr/hanefi-mezhebi
 Uygulama açıklamaları: Diyanet Haber “Beş Vakit Namazın Kılınışı”, Din İşleri Yüksek Kurulu’nun ikindi/yatsı ilk sünneti açıklaması ve V6 içerik kontrol raporundaki kaynaklar.
+
+## Sürüm 8 — yayın tasarımı
+
+Tema tek bir tutarlı stil dosyasıyla yeniden kuruldu. Ana sayfa, solda tanıtım ve sağda çizgilerle ayrılmış beş vakit listesinden oluşuyor; telefonda tek sütuna dönüyor. Renkli kutuların ve yoğun zemin renklerinin yerini sıcak beyaz, koyu yazı ve sınırlı zeytin/altın vurgular aldı. Başlıklarda serif, okuma ve arayüz metinlerinde sistem yazı tipi kullanılıyor; haricî font veya ağ bağımlılığı eklenmedi. Namaz sayfaları aynı görsel düzene uyarlandı; yakın planlar çizgilerle ayrıldı, dua kartları sadeleştirildi. Okunuş/meal/Arapça büyüklükleri korundu.
+
+Kontrol: V7 ile karşılaştırıldığında yalnızca assets/tema.css ve bu sürüm notu değişti. HTML içerikleri, dua verileri, görseller ve işlev dosyaları aynı. Tarayıcıda ana sayfa ve namaz sayfası incelendi; okunuş 23 px, meal 20 px ve Arapça 14 px olarak doğrulandı. Tüm-adımlar görünümünde gezinmenin gizlenmesi korundu. Gerçek telefonda test yapılmadı.
+
+## Sürüm 9 — abdest ve yeni tema
+
+Ana sayfanın ilk sırasına Abdest rehberi eklendi. Er ve bacılar için aynı sırayı gösteren 11 adım, yeni görseller, yakın planlar, yıkama tekrarları ve farz/sünnet açıklamaları bulunur. Tek-adım ve tüm-adımlar görünümleri, adım seçimi, büyütme ve tamamlama düğmesi kullanılabilir. Başın meshinde doğrudan başa temas gerektiği belirtilir.
+
+Kaynaklar: Din İşleri Yüksek Kurulu “Abdest nedir ve nasıl alınır?”, Diyanet Haber “Abdest ile ilgili bilinmesi gerekenler” ve Din İşleri Yüksek Kurulu “Abdest alırken başörtüsünün üzerinden baş mesh edilebilir mi?” Kaynak bağlantıları abdest sayfasındadır.
+
+Tasarım, kullanıcının bugrakaplan.com/denemeler/ sayfasındaki koyu yeşil, krem ve mat altın paletiyle yenilendi. Ana sayfaya kemerli görsel alanı eklendi. Haricî font veya sunucu bağımlılığı eklenmedi.
+
+Kontroller: V8 ile karşılaştırmada beş namaz sayfasının tek değişikliği Abdest menü bağlantısıdır. Mevcut dua verileri, işlev dosyası ve namaz görselleri birebir korundu. İkindi/yatsı ilk sünnetinin ara oturuşlarında Ettehiyyâtü, Salli ve Bârik korundu. Yeni abdest okuyucusunda cinsiyet seçimi, adım seçimi, 11 adımın birlikte gösterilmesi, gezinmenin gizlenmesi ve tamamlama tarayıcıda kontrol edildi. Yerel bağlantılar ve JavaScript sözdizimi doğrulandı. Gerçek telefonda test yapılmadı.
