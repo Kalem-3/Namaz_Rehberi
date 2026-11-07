@@ -1,4 +1,4 @@
-# Namaz Rehberi — görselli sürüm 4
+# Namaz Rehberi — görselli sürüm 6
 
 ## Başlatma
 ZIP dosyasını çıkarıp index.html dosyasını açın. Vakti seçin. Erkek/kadın görünümü üst çubuktan değişir. Önce duruş ve yanındaki ayrıntılar, sonra açıklama, dua, okunuş ve anlamı gösterilir. Görsellere dokunarak büyütün. Birden çok duruş içeren adımlarda üstteki duruş düğmeleri kullanılır. Önceki/sonraki adımla ilerlenir. Tüm adımları birlikte görmek de mümkündür.
@@ -35,3 +35,9 @@ Seccadelerin uzun ekseni kişinin gövde/dizlerinin yöneldiği namaz doğrultus
 
 ## Sürüm 4 — okuma ve tema
 Okunuşlar masaüstünde 23 px, telefonda 21 px; mealler 20/18 px; Arapça metin 14/13 px olarak düzenlendi. Dua kartlarında önce okunuş, sonra anlam ve en altta Arapça gösterilir. Sade yeşil-beyaz açık tema ana sayfa ve beş vakitte ortaktır. Dua metinleri ve duruş görselleri değiştirilmedi.
+
+## Sürüm 5 — tüm adımlar görünümü ve renkler
+Tüm adımlar açıkken önceki/sonraki adım çubuğu gizlenir. Gizli çubuğun CSS tarafından tekrar görünür yapılması engellendi. Üstteki adım seçimi, tüm adımlar görünümünde seçilen bölüme kaydırır. Tek-adım görünümüne dönüldüğünde gezinme geri gelir. Sıcak kırık beyaz, koyu yeşil, adaçayı ve sınırlı mat altın vurgularla renk dengesi güncellendi. Büyük okunuş/meal ve küçük Arapça düzeni korundu.
+
+## Sürüm 6 — tanıtım dili
+Ana sayfadaki sloganlar ve vakit kartlarının ifadeleri daha sade ve mütevazı bir dille yenilendi. Ana sayfa ile beş vaktin tanıtım/alt bilgi bölümlerinde İmam-ı Âzam Ebû Hanîfe Hazretleri’nin adı eklendi. Beş vaktin ders gövdeleri, dua metinleri, okunuşlar ve mealler V5 ile harfi harfine karşılaştırıldı ve aynen korundu. Görseller, stiller ve işlev dosyaları değişmedi.
