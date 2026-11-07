@@ -17,3 +17,7 @@ Namaz ve abdest sayfalarının kaynak bölümlerinde ilgili açıklamalar ve Diy
 ## Sürüm 10
 
 Yazım ve hitap birliği sağlandı. Kısaltılmış hareket açıklamaları tamamlandı. Eûzü ile besmelenin hangi rekâtlarda okunacağını açıklayan cümle netleştirildi. Kaynak bağlantıları eklendi; giriş yazılarının kontrastı artırıldı. Mevcut görseller, dua metinleri, okunuşlar ve mealler V9 ile aynıdır.
+
+## Sürüm 11
+
+Tanıtım cümlesi güncellendi. Bacı görsellerinde üst sıradan taşan seccade kenarları, görsel dosyaları değiştirilmeden sayfadaki görüntü sınırı düzeltilerek gizlendi. Dua metinleri, okunuşlar ve mealler V10 ile aynıdır.
