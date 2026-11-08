@@ -22,3 +22,7 @@ body.home .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:
 
 /* V10: clearer introductory text on dark backgrounds. */
 .hero p.lede,.hero .scope-note{color:#f4f1e7!important}.hero .source-note{color:#354539}.source-links{padding-left:20px}.source-links a{color:#254f3d;text-decoration:underline;text-underline-offset:3px}
+/* V14: prevent full-width home artwork from creating horizontal scrolling;
+   keep small reading and instruction text sufficiently distinct. */
+body.home{overflow-x:hidden}.step-body p.posture.note,.pose-tip,.detail-card p{color:#606b57}.recite .arabic{color:#596651}.guide-counter{color:#606b57}
+@media(max-width:720px){body.home .intro{width:auto;margin-left:-20px;margin-right:-20px}}
