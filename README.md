@@ -21,3 +21,9 @@ Yazım ve hitap birliği sağlandı. Kısaltılmış hareket açıklamaları tam
 ## Sürüm 11
 
 Tanıtım cümlesi güncellendi. Bacı görsellerinde üst sıradan taşan seccade kenarları, görsel dosyaları değiştirilmeden sayfadaki görüntü sınırı düzeltilerek gizlendi. Dua metinleri, okunuşlar ve mealler V10 ile aynıdır.
+
+## Sürüm 13 — geçişlerde bütün duruşlar görünür
+
+Canlı sitedeki iki sekmeli düzen korunmuştur. Birden fazla hareket içeren her adımın altında, o adımın bütün duruşlarını sırasıyla gösteren görseller eklenmiştir. Böylece secde ve diğer geçiş görselleri sekmelere dokunmadan da görülür. Üstteki sekmeler, yakın planlar ve görsel büyütme kullanılmaya devam eder. Bu güncelleme canlı sitede kullanılan V11 üzerine hazırlanmıştır; V12 farklı bir öğrenme düzeninin deneme sürümüdür. Mevcut görsel dosyaları ve dua içerikleri aynıdır.
+
+Kontrol: Beş vakitteki 235 adımda, birden fazla duruş içeren 89 adımın tamamına hareket sırası görselleri eklendiği doğrulandı. Sekmelerin ve eklenen görsellerin büyütülmesinin çalışması kontrol edildi. Er/bacı geçişi yeni görsellerde de çalışır. HTML dosyaları, dua verileri ve tüm görsel dosyaları V11 ile birebir aynıdır. Gerçek iPhone üzerinde test yapılmadı.

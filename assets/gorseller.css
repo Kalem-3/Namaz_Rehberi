@@ -3,3 +3,6 @@
 
 /* Keep the previous row's rug edge outside the female illustration cells. */
 html[data-gender=kadin] .sheet-tile[data-tile="3"],html[data-gender=kadin] .sheet-tile[data-tile="4"],html[data-gender=kadin] .sheet-tile[data-tile="5"]{clip-path:inset(2.5% 0 0)}
+
+/* Always show every movement in a compound step, independently of the tabs. */
+.movement-sequence{margin:0 0 28px;padding:22px;background:#fffdfa;border:1px solid #e5dfd2;border-radius:4px}.movement-sequence>h4{font:600 14px/1.6 system-ui;color:#415541;margin:0 0 18px}.movement-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.movement-cards li{min-width:0}.movement-cards figure{margin:0}.movement-cards .art-frame{width:100%;aspect-ratio:1;border-radius:3px}.movement-cards figcaption{display:flex;align-items:center;gap:9px;font:500 13px/1.6 system-ui;color:#526249;padding-top:12px}.movement-order{flex:0 0 25px;width:25px;height:25px;border-radius:50%;display:inline-grid;place-items:center;background:#eee8d9;color:#79673e;font-size:12px}.movement-cards li:only-child{max-width:300px}@media(max-width:720px){.movement-sequence{padding:16px}.movement-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}.movement-cards figcaption{align-items:flex-start;font-size:12px;gap:6px}.movement-order{flex-basis:22px;width:22px;height:22px}}
